@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import defimg from '../../assets/def.png'
 
 export default function TelaPrincipal(){
+    console.log(React);
     return(
         <div className='TelaPrincipal'>
             <div className='def'>

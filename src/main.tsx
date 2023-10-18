@@ -1,9 +1,8 @@
-import React, { Children } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import TelaPrincipal from './Páginas/TelaPrincipal/TelaPrincipal'
 import CriarConta from './Páginas/CriarConta/CriarConta'
 import VisitanteConta from './Páginas/VisitanteConta/VisitanteConta'
 import DeficienteConta from './Páginas/DeficienteConta/DeficienteConta'

@@ -12,6 +12,7 @@ import excluir from '../../assets/icons8-excluir-30.png'
 
 
 export default function Home(){
+    console.log(React);
     const [menu,setMenu]=useState(true);
     const visivel="visivel";
     const invisivel="invisivel";

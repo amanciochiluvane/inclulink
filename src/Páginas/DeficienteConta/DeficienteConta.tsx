@@ -3,6 +3,7 @@ import './DeficienteConta.css'
 import { Link } from 'react-router-dom'
 
 export default function DeficienteConta(){
+    console.log(React);
     return(
         <div className='VisitanteConta'>
             <div className='LoginV'>

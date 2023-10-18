@@ -3,6 +3,7 @@ import './VisitanteConta.css'
 import { Link } from 'react-router-dom'
 
 export default function VisitanteConta(){
+    console.log(React);
     return(
         <div className='VisitanteConta'>
             <div className='LoginV'>

@@ -5,6 +5,7 @@ import './CriarConta.css'
 import { Link } from 'react-router-dom'
 
 export default function CriarConta(){
+    console.log(React);
     return(
         <div className='CriarConta'>
             <div className='LoginC'>

@@ -8,7 +8,7 @@ import log from '../../assets/logout.png'
 
 
 export default function Navbar(){
-    
+    console.log(React);
 
     return(
         <div className='Navbar'>

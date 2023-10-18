@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './Texto.css';
 import logo from '../../assets/logo.png';
-import Select, { ValueType } from "react-select";
+
 
 
 function Texto() {
- 
+  console.log(React);
 
 
   

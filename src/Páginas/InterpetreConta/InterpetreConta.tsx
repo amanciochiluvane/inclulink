@@ -3,6 +3,7 @@ import './InterpetreConta.css'
 import { Link } from 'react-router-dom'
 
 export default function InterpetreConta(){
+    console.log(React);
     return(
         <div className='InterpetreConta'>
             <div className='LoginV'>
