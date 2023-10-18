@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+.Navbar{
+    
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding-left: 25px;
+  
+    
+}
+.op{
+    color: #545F71;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.opnav{
+    display: flex;
+    height: 40px;
+    
+    
+}
+.invisi{
+    display: none;
+}
+.visi{
+    display: block;
+}
+.opnav:hover{
+    background: #EEF1F4;
+    cursor: pointer;
+}
+.opnavimg{
+    width: 20px;
+    height: 20px;
+}
+.info{
+    margin-top: 40px;
+}
+.tecinfo{
+    margin-top: 390px;
+    
+}
+@media (min-width:468px) {
+    .Navbar{
+        width: 300px;
+    }
+}

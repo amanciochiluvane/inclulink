@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+.VisitanteConta{
+    padding-top: 70px;
+    background-color:#EDF3D7; 
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.LoginV{
+    background-color: white;
+    
+    width: 250px;
+    height: 450px ;
+    margin: auto;
+    margin-top: auto;
+    box-shadow: 3px 3px 3px rgb(196, 194, 194);
+    padding: 29px;
+    border-radius: 5px ;
+    
+    
+}
+.Logo{
+    background: url(../../assets/logo.png);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: 50% ;
+    margin: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.TituloForm{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 30px;
+        
+}
+form>div{
+    width: 100%;
+}
+#email,#password,#Name,#Lname{
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0;
+    border-top:0;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+   
+    
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+
+
+.Proximo{
+  width: 150px;
+  height: 29px;
+  border-radius: 20px;
+  background: #000; 
+  border: 0; 
+  color: #FFF;
+  margin-top: 60px;
+  margin-left: 90px;
+  
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+  
+}
+.Proximo:hover{
+    cursor: pointer;
+    background-color: #161616;
+}
+@media (min-width:768px) {
+   
+    .LoginV{
+        width: 500px;
+        
+    }
+}
+

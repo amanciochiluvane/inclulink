@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+.TelaPrincipal{
+    padding-top: 70px;
+    background-color:#EDF3D7; 
+    height: 100vh;
+    width: 100vw;
+
+}
+img{
+    display: none;
+}
+.Login{
+    background-color: white;
+    
+    width: 250px;
+    height: 450px ;
+    margin: auto;
+    margin-top: auto;
+    box-shadow: 3px 3px 3px rgb(196, 194, 194);
+    padding: 29px;
+    border-radius: 5px ;
+    
+    
+}
+.Logo{
+    background: url(../../assets/logo.png);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: 50% ;
+    margin: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.TituloForm{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 30px;
+        
+}
+form>div{
+    width: 100%;
+    overflow-x: hidden;
+}
+#email,#password{
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0;
+    border-top:0;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    
+    
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+.defimg{
+    display: none;
+}
+section{
+    color: #000;
+    font-family: Poppins;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 20px;
+    
+
+    display: flex;
+    gap: 40px;
+}
+#paragrafo{
+    width: 8px;
+    height: 8px;
+    flex-shrink: 0;
+    margin-top: 4px;
+    color: white;
+}
+.Acesso{
+    display: flex;
+    gap:3px;
+}
+.Entrar{
+  width: 100%;
+  height: 29px;
+  border-radius: 20px;
+  background: #000; 
+  border: 0; 
+
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+  
+}
+.Conta{
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+   
+    text-align: center;
+    margin-top: 70px;
+}
+.Link{
+    color: #000;
+    font-family: Poppins;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+}
+.Link:hover{
+    color: rgb(36, 36, 118);
+    cursor: pointer;
+}
+@media (min-width: 768px) {
+    .TelaPrincipal{
+        display: flex;
+        padding: 0;
+        
+    }
+    .def{
+        display: block;
+        overflow-x: hidden;
+        margin-top: 200px; 
+           }
+
+           .defimg{
+            display: block;
+            width: 500px;
+            height: 400px;
+            margin-top: 10px;
+            
+           }
+
+        .Login{
+            height: 100%;
+            border: 0;
+            width: 35%;
+        }
+        section{
+            font-size: 10px;
+        }
+}
+
+@media (min-width: 865px){
+    .Login{
+        width: 350px;
+        position: absolute;
+        right: 0px;
+    }
+}
+
+@media (min-width: 1024px){
+    .Login{
+        border-radius: 0px;
+    }
+    .defimg{
+        display: block;
+        width: 600px;
+        height: 450px;
+        margin-top: 10px;
+        
+       }
+}
